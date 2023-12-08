@@ -1,0 +1,194 @@
+#order_form {
+    background: rgb(242, 243, 246) none repeat scroll 0% 0%;
+    background-image: url(../img/formbg.jpg);
+    background-size: 100% 100%;
+    padding: 20px;
+    max-width: 540px;
+    font-family: Arial;
+    margin: 20px;
+    background-repeat: no-repeat;
+    padding-bottom: 25px;
+    display: block;
+    margin: 20px auto;
+}
+#order_form h2 {
+    margin: 0px 0px 25px;
+    padding: 0px;
+    line-height: 32px;
+}
+
+#order_form .order_form_pole {
+    padding: 10px;
+}
+
+#order_form span {
+    font-size: 12px;
+}
+
+#order_form button:hover {
+    background: rgb(198, 45, 31);
+}
+
+#order_form button:active {
+    position: relative;
+    top: 1px;
+}
+
+@media (min-width: 600px) and (max-width: 739px) {
+    #order_form {
+        padding: 20px !important;
+        margin: 20px auto !important;
+    }
+}
+
+@media (min-width: 460px) and (max-width: 599px) {
+    #order_form {
+        padding: 20px !important;
+    }
+}
+
+#order_form div {
+    background: transparent !important;
+}
+
+#order_form h2 {
+    margin: 5px 0 0 0;
+
+    padding: 0px;
+
+    line-height: 32px;
+
+    border: none;
+}
+
+#order_form label {
+    display: block;
+    padding: 5px 0 5px 0;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+}
+
+#order_form input {
+    font-size: 21px;
+
+    padding: 15px;
+
+    border-radius: 3px;
+
+    border: 2px solid #e9d7dc;
+
+    max-width: 300px;
+
+    width: 100%;
+}
+
+#order_form span {
+    font-size: 12px;
+}
+
+#order_form button,
+.obutton {
+    display: inline-block;
+    color: #fff;
+    margin-top: 25px;
+    padding: 15px 10px;
+    font-weight: 700;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 15px 0 rgb(129 150 160 / 45%);
+            box-shadow: 0 4px 15px 0 rgb(129 150 160 / 45%);
+    border-radius: 5px;
+    background-color: #0299ff;
+    -webkit-transition: all 0.15s ease-in-out;
+    -o-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    max-width: 300px;
+    width: 100%;
+}
+
+#order_form button:hover,
+.obutton:hover {
+    background-color: #017acc;
+}
+
+#order_form button:active {
+    position: relative;
+
+    top: 1px;
+}
+
+.order_info h2 {
+    border: none !important;
+    line-height: 40px;
+    color: red !important;
+}
+
+.left_count {
+    background: red;
+
+    padding: 23px;
+
+    margin: 12px 0px;
+
+    width: 178px;
+
+    color: #fff;
+
+    text-shadow: 0 -1px 0 #000000, 0 -1px 0 #000000, 0 1px 0 #000000, 0 1px 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px 0 0 #000000, 1px 0 0 #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000,
+        -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+
+    font-size: 32px !important;
+
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 480px) {
+    #order_form input {
+    }
+
+    #order_form label {
+        font-size: 14px;
+    }
+
+    #order_form button {
+        font-size: 16px;
+    }
+
+    #order_form {
+        padding: 25px 10px 10px 10px;
+        padding-bottom: 15px;
+        margin-bottom: 0;
+        background-position-x: 20%;
+    }
+
+    #order_form .order_form_pole {
+        padding: 0px;
+
+        margin: 2px;
+    }
+}
+
+@media screen and (max-width: 459px) {
+    #order_form {
+        margin-left: -11px;
+
+        margin-right: -11px;
+    }
+}
+
+@media screen and (max-width: 349px) {
+    #order_form input {
+        font-size: 17px;
+    }
+
+    #order_form button {
+        margin-left: 0px;
+    }
+}
+button {
+    outline: none;
+}
